@@ -1,0 +1,65 @@
+/*General Style*/
+
+.{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Late','sans-sarif';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(./Library.webp) no-repeat center center/ cover;
+} 
+
+.container{
+    width: 550px;
+    height: 400px;
+}
+
+.header{
+    font-size: 1rem;
+    border: solid 2px red;
+    color: black;
+    background-color: rgb(130, 142, 142);
+    padding: 5px;
+    width: 80%;
+    margin: 20px 0 0 90px;
+    border-radius: 5px;
+}
+
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(220, 165, 103);
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.main-content .person{
+    font-size: 1rem;
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#new-quote{
+    background-color: brown;
+    color: wheat;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#new-quote :active{
+    background-color: lightpink;
+}
