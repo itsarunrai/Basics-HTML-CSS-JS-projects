@@ -1,2 +1,2 @@
 # Basics-HTML-CSS-JS-projects
-# arun
+# Project 1 : QuoteGenerator
